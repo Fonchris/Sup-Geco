@@ -602,7 +602,7 @@ h3 {
 }
 }
 
-
+/* Unique CSS for faq Page */
 .supgeco-faq-container {
 	background-color: white;
 	border-radius: 8px;
@@ -682,5 +682,175 @@ h3 {
 	
 	.supgeco-faq-heading {
 		font-size: 1.6rem;
+	}
+}
+
+/* Unique CSS for Programs Page */
+.supgeco-prog-container {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	padding: 2rem;
+	margin-bottom: 3rem;
+}
+
+.supgeco-prog-banner {
+	background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	padding: 100px 0 60px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.supgeco-prog-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	color: #fff;
+}
+
+.supgeco-prog-section {
+	margin-bottom: 2.5rem;
+}
+
+.supgeco-prog-heading {
+	font-size: 2rem;
+	border-bottom: 2px solid #7a60ff;
+	padding-bottom: 0.5rem;
+	margin-top: 2rem;
+	color: #5f0099;
+}
+
+.supgeco-prog-subheading {
+	font-size: 1.5rem;
+	color: #5f0099;
+	margin: 1.5rem 0 1rem;
+	font-weight: 600;
+}
+
+.supgeco-prog-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.supgeco-prog-list li {
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+	display: flex;
+	align-items: center;
+}
+
+.supgeco-prog-list li:before {
+	content: "•";
+	color: #5f0099;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-right: 10px;
+}
+
+.supgeco-prog-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+	transition: all 0.3s ease;
+}
+
+.supgeco-prog-card:hover {
+	box-shadow: 0 5px 15px rgba(95, 0, 153, 0.1);
+	transform: translateY(-3px);
+}
+
+.supgeco-prog-card-title {
+	font-size: 1.25rem;
+	color: #5f0099;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+
+.supgeco-prog-card-content {
+	color: #333;
+}
+
+.supgeco-prog-admission {
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	padding: 1.5rem;
+	margin: 2rem 0;
+}
+
+.supgeco-prog-admission-title {
+	font-size: 1.25rem;
+	color: #5f0099;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+
+.supgeco-prog-admission-item {
+	margin-bottom: 1rem;
+}
+
+.supgeco-prog-note {
+	background-color: #fff8e5;
+	border-left: 4px solid #ffcc00;
+	padding: 1rem;
+	margin: 1.5rem 0;
+}
+
+.supgeco-prog-special {
+	background-color: #f0e9ff;
+	border-radius: 8px;
+	padding: 1.5rem;
+	margin: 2rem 0;
+	border-left: 4px solid #5f0099;
+}
+
+.supgeco-prog-special-title {
+	color: #5f0099;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.supgeco-prog-benefits {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 1.5rem 0;
+}
+
+.supgeco-prog-benefit-item {
+	background-color: #f0f0f0;
+	border-radius: 8px;
+	padding: 1rem;
+	flex: 1 1 30%;
+	min-width: 250px;
+}
+
+.supgeco-prog-benefit-title {
+	color: #5f0099;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+	.supgeco-prog-container {
+		padding: 1.5rem;
+	}
+	
+	.supgeco-prog-banner {
+		padding: 80px 0 40px;
+	}
+	
+	.supgeco-prog-title {
+		font-size: 2rem;
+	}
+	
+	.supgeco-prog-heading {
+		font-size: 1.6rem;
+	}
+	
+	.supgeco-prog-benefit-item {
+		flex: 1 1 100%;
 	}
 }
